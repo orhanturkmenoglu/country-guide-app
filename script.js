@@ -2,7 +2,6 @@ const searchButton = document.querySelector("#search-btn");
 const countryInp = document.querySelector("#country-inp");
 const result = document.querySelector("#result");
 
-const data = "https://restcountries.com/v3.1/all";
 
 // Fetch and display country data
 const fetchCountryData = async (countryName) => {
