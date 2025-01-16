@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #edf2fb, #d7e3fc);
+  color: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #ffffff;
+  width: 90%;
+  max-width: 420px;
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #222;
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 0.05em;
+}
+
+.search-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.search-wrapper input {
+  flex-grow: 1;
+  padding: 0.8rem 1rem;
+  border: 2px solid #dfe4ea;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  color: #333;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-wrapper input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 10px rgba(74, 144, 226, 0.3);
+}
+
+.search-wrapper button {
+  background: linear-gradient(135deg, #4a90e2, #357ab8);
+  color: #fff;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.search-wrapper button:hover {
+  background: linear-gradient(135deg, #357ab8, #4a90e2);
+  transform: scale(1.05);
+}
+
+.flag-img {
+  display: block;
+  width: 100%;
+  max-width: 150px;
+  margin: 2rem auto;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.flag-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.data-wrapper {
+  margin-top: 1rem;
+  line-height: 1.6;
+}
+
+h4 {
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+span {
+  color: #555;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #e74c3c;
+  margin-top: 1.5rem;
+}
